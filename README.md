@@ -7,6 +7,20 @@ allows you to tamper with your system and should be used with caution.
 
 Want to use acpi_call via graphic interface? [Click here](https://github.com/mkottman/acpi_call/#graphic-interface)
 
+## Installation
+
+Build:
+
+	make
+	
+Install:
+
+	sudo make install
+ 
+Load the module:
+
+	sudo modprobe acpi_call
+
 Usage:
 
     echo '<call>' | sudo tee /proc/acpi/call
